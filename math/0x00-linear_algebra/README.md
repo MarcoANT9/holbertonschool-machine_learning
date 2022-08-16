@@ -1,6 +1,6 @@
 #  holbertonschool-machine_learning
 ##  Math
-###  Linear Algebra
+###  0x00 - Linear Algebra
 This directory stores all tasks related to learning Linear Algebra 
 ### Tasks:
 ####  0. Slice Me Up
