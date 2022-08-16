@@ -3,11 +3,10 @@
 
 
 def matrix_shape(matrix):
-    """
-    This Function calculates the shape of a matrix
-    Arguments:
-        matrix: Matrix to calculate shape
-    return -> Shape of matrix ([int,])
+    """This Function calculates the shape of a matrix
+Arguments:
+matrix: Matrix to calculate shape
+return -> Shape of matrix ([int,])
     """
 
     if (len(matrix) == 0):
@@ -19,3 +18,6 @@ def matrix_shape(matrix):
         vector = vector[0]
     shape.append(len(vector))
     return(shape)
+
+if __name__ == "__name__":
+    main()
