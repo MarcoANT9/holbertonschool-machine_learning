@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-""" This module is used to calculate the shape of any given matrix """ 
+""" This module is used to calculate the shape of any given matrix """
+
 
 def matrix_shape(matrix):
     """
@@ -8,8 +9,7 @@ def matrix_shape(matrix):
         matrix: Matrix to calculate shape
     return -> Shape of matrix ([int,])
     """
-    #if not matrix:
-        #return([0])
+
     if (len(matrix) == 0):
         return([])
     shape = [len(matrix)]
@@ -19,6 +19,7 @@ def matrix_shape(matrix):
         vector = vector[0]
     shape.append(len(vector))
     return(shape)
+
 
 if __name__ == "__main__":
     main()
