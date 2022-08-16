@@ -19,7 +19,3 @@ def matrix_shape(matrix):
         vector = vector[0]
     shape.append(len(vector))
     return(shape)
-
-
-if __name__ == "__main__":
-    main()
