@@ -18,6 +18,3 @@ return -> Shape of matrix ([int,])
         vector = vector[0]
     shape.append(len(vector))
     return(shape)
-
-if __name__ == "__name__":
-    main()
